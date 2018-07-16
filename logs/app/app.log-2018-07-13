@@ -1,0 +1,14 @@
+[2018-07-13 18:48:35.033] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-13 18:48:35.051] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-13 18:48:35.055] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-07-13 18:48:35.059] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-07-13 18:48:35.085] [ERROR] Query - Error: 14 UNAVAILABLE: Connect Failed
+    at new createStatusError (/home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:64:15)
+    at /home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:583:15
+[2018-07-13 19:00:20.174] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-13 19:00:20.190] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-13 19:00:20.195] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-07-13 19:00:20.198] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-07-13 19:00:20.225] [ERROR] Query - Error: 14 UNAVAILABLE: Connect Failed
+    at new createStatusError (/home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:64:15)
+    at /home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:583:15

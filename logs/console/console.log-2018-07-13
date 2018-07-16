@@ -1,0 +1,16 @@
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+E0713 19:00:20.221812316     845 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+[31merror[39m: [client-utils.js]: sendPeersProposal - Promise is rejected: Error: 14 UNAVAILABLE: Connect Failed
+    at new createStatusError (/home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:64:15)
+    at /home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:583:15
+[31merror[39m: [Client.js]: Failed Channels Query. Error: Error: 14 UNAVAILABLE: Connect Failed
+    at new createStatusError (/home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:64:15)
+    at /home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:583:15
+(node:845) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'forEach' of undefined
+    at Platform.setChannels (/home/ubuntu/fabric-single/blockchain-explorer/app/platform/fabric/Platform.js:188:26)
+    at <anonymous>
+(node:845) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:845) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+E0713 19:00:21.223132969     845 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+E0713 19:00:22.621322017     845 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+E0713 19:00:24.689135713     845 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.

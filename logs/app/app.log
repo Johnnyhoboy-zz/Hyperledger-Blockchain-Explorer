@@ -1,0 +1,232 @@
+[2018-07-16 13:54:42.550] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 13:54:42.566] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 13:54:42.570] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-07-16 13:54:42.573] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-07-16 13:54:42.599] [ERROR] Query - Error: 14 UNAVAILABLE: Connect Failed
+    at new createStatusError (/home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:64:15)
+    at /home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:583:15
+[2018-07-16 15:00:49.737] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 15:00:49.753] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 15:00:49.785] [ERROR] Query - Error: 14 UNAVAILABLE: Connect Failed
+    at new createStatusError (/home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:64:15)
+    at /home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:583:15
+[2018-07-16 15:18:32.120] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 15:18:32.137] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 15:18:32.165] [ERROR] Query - Error: 14 UNAVAILABLE: Connect Failed
+    at new createStatusError (/home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:64:15)
+    at /home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:583:15
+[2018-07-16 17:44:05.584] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 17:44:05.601] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 17:44:05.629] [ERROR] Query - Error: 14 UNAVAILABLE: Connect Failed
+    at new createStatusError (/home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:64:15)
+    at /home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:583:15
+[2018-07-16 17:45:25.123] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 17:45:25.140] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 17:45:25.168] [ERROR] Query - Error: 14 UNAVAILABLE: Connect Failed
+    at new createStatusError (/home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:64:15)
+    at /home/ubuntu/fabric-single/blockchain-explorer/node_modules/grpc/src/client.js:583:15
+[2018-07-16 17:55:19.405] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 17:55:19.421] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 17:55:19.461] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 17:55:19.461] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 17:55:19.464] [ERROR] blockscanner - Error: Missing "orderer" request parameter
+    at Client.getTargetOrderer (/home/ubuntu/fabric-single/blockchain-explorer/node_modules/fabric-client/lib/Client.js:1788:10)
+    at Channel.getGenesisBlock (/home/ubuntu/fabric-single/blockchain-explorer/node_modules/fabric-client/lib/Channel.js:414:37)
+    at Proxy.getGenesisBlock (/home/ubuntu/fabric-single/blockchain-explorer/app/platform/fabric/Proxy.js:99:18)
+    at BlockScanner.saveChannel (/home/ubuntu/fabric-single/blockchain-explorer/app/explorer/backend/BlockScanner.js:329:49)
+    at BlockScanner.syncChannels (/home/ubuntu/fabric-single/blockchain-explorer/app/explorer/backend/BlockScanner.js:358:24)
+    at BlockListener.<anonymous> (/home/ubuntu/fabric-single/blockchain-explorer/app/explorer/backend/BlockListener.js:32:34)
+    at emitNone (events.js:106:13)
+    at BlockListener.emit (events.js:208:7)
+    at Object.start (/home/ubuntu/fabric-single/blockchain-explorer/app/explorer/backend/timer.js:38:23)
+    at Explorer.initialize (/home/ubuntu/fabric-single/blockchain-explorer/app/explorer/Explorer.js:38:17)
+[2018-07-16 17:55:19.464] [ERROR] blockscanner - Error: Missing "orderer" request parameter
+    at Client.getTargetOrderer (/home/ubuntu/fabric-single/blockchain-explorer/node_modules/fabric-client/lib/Client.js:1788:10)
+    at Channel.getGenesisBlock (/home/ubuntu/fabric-single/blockchain-explorer/node_modules/fabric-client/lib/Channel.js:414:37)
+    at Proxy.getGenesisBlock (/home/ubuntu/fabric-single/blockchain-explorer/app/platform/fabric/Proxy.js:99:18)
+    at BlockScanner.saveChannel (/home/ubuntu/fabric-single/blockchain-explorer/app/explorer/backend/BlockScanner.js:329:49)
+    at BlockScanner.syncChannels (/home/ubuntu/fabric-single/blockchain-explorer/app/explorer/backend/BlockScanner.js:358:24)
+    at BlockListener.<anonymous> (/home/ubuntu/fabric-single/blockchain-explorer/app/explorer/backend/BlockListener.js:32:34)
+    at emitNone (events.js:106:13)
+    at BlockListener.emit (events.js:208:7)
+    at Object.start (/home/ubuntu/fabric-single/blockchain-explorer/app/explorer/backend/timer.js:38:23)
+    at Explorer.initialize (/home/ubuntu/fabric-single/blockchain-explorer/app/explorer/Explorer.js:38:17)
+[2018-07-16 17:55:19.481] [DEBUG] Query - <<< Instantiated Chaincodes >>>
+[2018-07-16 17:55:19.482] [DEBUG] Query - name: cfa-perishable, version: 0.2.6-deploy.173, path: /tmp/businessnetwork118613-32666-18i0rou.nifsh
+[2018-07-16 18:00:21.589] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:00:21.605] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:00:21.666] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:00:21.666] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:00:21.683] [DEBUG] Query - <<< Instantiated Chaincodes >>>
+[2018-07-16 18:00:21.684] [DEBUG] Query - name: cfa-perishable, version: 0.2.6-deploy.173, path: /tmp/businessnetwork118613-32666-18i0rou.nifsh
+[2018-07-16 18:00:21.731] [DEBUG] Query - ===========================================
+[2018-07-16 18:00:21.731] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 04 12 20 46 52 87 67 9b 77 d8 a3 0e 48 a9 3f 99 8b d1 46 b7 a6 dc db 47 70 8c f2 55 c2 d2 81 29 2c aa 5e 1a 20 36 de f1 91 60 95 93 23 98 2e 19 db ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-07-16 18:00:21.734] [DEBUG] Query - ===========================================
+[2018-07-16 18:00:21.757] [DEBUG] Query - ===========================================
+[2018-07-16 18:00:21.757] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 04 12 20 46 52 87 67 9b 77 d8 a3 0e 48 a9 3f 99 8b d1 46 b7 a6 dc db 47 70 8c f2 55 c2 d2 81 29 2c aa 5e 1a 20 36 de f1 91 60 95 93 23 98 2e 19 db ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-07-16 18:00:21.757] [DEBUG] Query - ===========================================
+[2018-07-16 18:07:58.293] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:07:58.310] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:07:58.374] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:07:58.374] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:07:58.382] [DEBUG] Query - <<< Instantiated Chaincodes >>>
+[2018-07-16 18:07:58.382] [DEBUG] Query - name: cfa-perishable, version: 0.2.6-deploy.173, path: /tmp/businessnetwork118613-32666-18i0rou.nifsh
+[2018-07-16 18:07:58.437] [DEBUG] Query - ===========================================
+[2018-07-16 18:07:58.437] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 04 12 20 46 52 87 67 9b 77 d8 a3 0e 48 a9 3f 99 8b d1 46 b7 a6 dc db 47 70 8c f2 55 c2 d2 81 29 2c aa 5e 1a 20 36 de f1 91 60 95 93 23 98 2e 19 db ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-07-16 18:07:58.440] [DEBUG] Query - ===========================================
+[2018-07-16 18:07:58.453] [DEBUG] Query - ===========================================
+[2018-07-16 18:07:58.453] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 04 12 20 46 52 87 67 9b 77 d8 a3 0e 48 a9 3f 99 8b d1 46 b7 a6 dc db 47 70 8c f2 55 c2 d2 81 29 2c aa 5e 1a 20 36 de f1 91 60 95 93 23 98 2e 19 db ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-07-16 18:07:58.453] [DEBUG] Query - ===========================================
+[2018-07-16 18:08:20.446] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:09:20.798] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:10:08.147] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:11:13.937] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:11:13.953] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:11:14.024] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:11:14.024] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:11:14.030] [DEBUG] Query - <<< Instantiated Chaincodes >>>
+[2018-07-16 18:11:14.030] [DEBUG] Query - name: cfa-perishable, version: 0.2.6-deploy.173, path: /tmp/businessnetwork118613-32666-18i0rou.nifsh
+[2018-07-16 18:11:14.090] [DEBUG] Query - ===========================================
+[2018-07-16 18:11:14.090] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 04 12 20 46 52 87 67 9b 77 d8 a3 0e 48 a9 3f 99 8b d1 46 b7 a6 dc db 47 70 8c f2 55 c2 d2 81 29 2c aa 5e 1a 20 36 de f1 91 60 95 93 23 98 2e 19 db ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-07-16 18:11:14.092] [DEBUG] Query - ===========================================
+[2018-07-16 18:11:14.101] [DEBUG] Query - ===========================================
+[2018-07-16 18:11:14.101] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 04 12 20 46 52 87 67 9b 77 d8 a3 0e 48 a9 3f 99 8b d1 46 b7 a6 dc db 47 70 8c f2 55 c2 d2 81 29 2c aa 5e 1a 20 36 de f1 91 60 95 93 23 98 2e 19 db ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-07-16 18:11:14.101] [DEBUG] Query - ===========================================
+[2018-07-16 18:11:23.225] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:11:57.048] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:12:30.639] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:13:07.784] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:14:08.112] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:27:25.514] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:27:25.531] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:27:25.589] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:28:17.233] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:28:17.249] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:28:17.307] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:28:17.307] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:28:17.342] [DEBUG] Query - <<< Instantiated Chaincodes >>>
+[2018-07-16 18:28:17.342] [DEBUG] Query - name: cfa-perishable, version: 0.2.6-deploy.173, path: /tmp/businessnetwork118613-32666-18i0rou.nifsh
+[2018-07-16 18:28:17.365] [DEBUG] Query - ===========================================
+[2018-07-16 18:28:17.365] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 04 12 20 46 52 87 67 9b 77 d8 a3 0e 48 a9 3f 99 8b d1 46 b7 a6 dc db 47 70 8c f2 55 c2 d2 81 29 2c aa 5e 1a 20 36 de f1 91 60 95 93 23 98 2e 19 db ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-07-16 18:28:17.368] [DEBUG] Query - ===========================================
+[2018-07-16 18:28:17.381] [DEBUG] Query - ===========================================
+[2018-07-16 18:28:17.382] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 04 12 20 46 52 87 67 9b 77 d8 a3 0e 48 a9 3f 99 8b d1 46 b7 a6 dc db 47 70 8c f2 55 c2 d2 81 29 2c aa 5e 1a 20 36 de f1 91 60 95 93 23 98 2e 19 db ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-07-16 18:28:17.382] [DEBUG] Query - ===========================================
+[2018-07-16 18:28:29.203] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:28:55.264] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:29:41.448] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:30:46.880] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:31:39.323] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:32:39.864] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:34:45.691] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:40:20.667] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:41:26.856] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:44:01.446] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:44:01.462] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:44:01.515] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:44:23.113] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:44:23.129] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:44:23.185] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:44:23.185] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:44:23.219] [DEBUG] Query - <<< Instantiated Chaincodes >>>
+[2018-07-16 18:44:23.219] [DEBUG] Query - name: cfa-perishable, version: 0.2.6-deploy.173, path: /tmp/businessnetwork118613-32666-18i0rou.nifsh
+[2018-07-16 18:44:23.249] [DEBUG] Query - ===========================================
+[2018-07-16 18:44:23.249] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 07 12 20 6d f1 65 65 01 bf 38 70 e5 61 b2 c4 dd 2b 00 c4 fd 50 ab 9c 16 37 f1 da d6 d1 2a c2 66 a8 10 50 1a 20 f0 dd 8d ee b3 e0 5a e5 2a e8 93 ac ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-07-16 18:44:23.255] [DEBUG] Query - ===========================================
+[2018-07-16 18:44:23.262] [DEBUG] Query - ===========================================
+[2018-07-16 18:44:23.262] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 07 12 20 6d f1 65 65 01 bf 38 70 e5 61 b2 c4 dd 2b 00 c4 fd 50 ab 9c 16 37 f1 da d6 d1 2a c2 66 a8 10 50 1a 20 f0 dd 8d ee b3 e0 5a e5 2a e8 93 ac ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-07-16 18:44:23.262] [DEBUG] Query - ===========================================
+[2018-07-16 18:44:32.049] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:45:03.866] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:50:42.924] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:50:42.941] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-07-16 18:50:43.004] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:50:43.004] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-07-16 18:50:43.059] [DEBUG] Query - <<< Instantiated Chaincodes >>>
+[2018-07-16 18:50:43.059] [DEBUG] Query - name: cfa-perishable, version: 0.2.6-deploy.173, path: /tmp/businessnetwork118613-32666-18i0rou.nifsh
+[2018-07-16 18:50:43.067] [DEBUG] Query - ===========================================
+[2018-07-16 18:50:43.067] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 07 12 20 6d f1 65 65 01 bf 38 70 e5 61 b2 c4 dd 2b 00 c4 fd 50 ab 9c 16 37 f1 da d6 d1 2a c2 66 a8 10 50 1a 20 f0 dd 8d ee b3 e0 5a e5 2a e8 93 ac ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-07-16 18:50:43.069] [DEBUG] Query - ===========================================
+[2018-07-16 18:50:43.078] [DEBUG] Query - ===========================================
+[2018-07-16 18:50:43.078] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 07 12 20 6d f1 65 65 01 bf 38 70 e5 61 b2 c4 dd 2b 00 c4 fd 50 ab 9c 16 37 f1 da d6 d1 2a c2 66 a8 10 50 1a 20 f0 dd 8d ee b3 e0 5a e5 2a e8 93 ac ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-07-16 18:50:43.078] [DEBUG] Query - ===========================================
+[2018-07-16 18:50:50.244] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:51:03.379] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:51:44.292] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:53:28.225] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 18:54:28.621] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 19:06:34.467] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 19:21:34.529] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]
+[2018-07-16 19:36:34.524] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' } ]

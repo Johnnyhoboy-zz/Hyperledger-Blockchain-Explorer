@@ -1,0 +1,43 @@
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+(node:22549) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, scandir '/home/ubuntu/fabric-samples/first-network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore'
+    at Object.fs.readdirSync (fs.js:904:18)
+    at Object.readAllFiles (/home/ubuntu/fabric-dev-servers/blockchain-explorer/app/helper.js:25:18)
+    at Platform.setAdminForClient (/home/ubuntu/fabric-dev-servers/blockchain-explorer/app/platform/fabric/Platform.js:78:37)
+    at Platform.initialize (/home/ubuntu/fabric-dev-servers/blockchain-explorer/app/platform/fabric/Platform.js:146:18)
+    at <anonymous>
+(node:22549) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:22549) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+(node:22581) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, scandir '/home/ubuntu/fabric-samples/first-network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore'
+    at Object.fs.readdirSync (fs.js:904:18)
+    at Object.readAllFiles (/home/ubuntu/fabric-dev-servers/blockchain-explorer/app/helper.js:25:18)
+    at Platform.setAdminForClient (/home/ubuntu/fabric-dev-servers/blockchain-explorer/app/platform/fabric/Platform.js:78:37)
+    at Platform.initialize (/home/ubuntu/fabric-dev-servers/blockchain-explorer/app/platform/fabric/Platform.js:146:18)
+    at <anonymous>
+(node:22581) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:22581) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+(node:22615) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, scandir '/home/ubuntu/fabric-samples/first-network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore'
+    at Object.fs.readdirSync (fs.js:904:18)
+    at Object.readAllFiles (/home/ubuntu/fabric-dev-servers/blockchain-explorer/app/helper.js:25:18)
+    at Platform.setAdminForClient (/home/ubuntu/fabric-dev-servers/blockchain-explorer/app/platform/fabric/Platform.js:78:37)
+    at Platform.initialize (/home/ubuntu/fabric-dev-servers/blockchain-explorer/app/platform/fabric/Platform.js:146:18)
+    at <anonymous>
+(node:22615) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:22615) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Received kill signal, shutting down gracefully
+Received kill signal, shutting down gracefully
+Closed out remaining connections
+Received kill signal, shutting down gracefully
+Closed out remaining connections
+Closed out remaining connections
+./start.sh: 15: ./start.sh: node: not found
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+(node:22985) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, scandir '/home/ubuntu/fabric-samples/first-network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore'
+    at Object.fs.readdirSync (fs.js:904:18)
+    at Object.readAllFiles (/home/ubuntu/fabric-dev-servers/blockchain-explorer/app/helper.js:25:18)
+    at Platform.setAdminForClient (/home/ubuntu/fabric-dev-servers/blockchain-explorer/app/platform/fabric/Platform.js:78:37)
+    at Platform.initialize (/home/ubuntu/fabric-dev-servers/blockchain-explorer/app/platform/fabric/Platform.js:146:18)
+    at <anonymous>
+(node:22985) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:22985) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
